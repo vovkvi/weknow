@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Feature Mono Regular";
+  src: "../fonts/feature-mono/FeatureMono-Regular.ttf";
+}
+@font-face {
+  font-family: "Feature Mono Bold";
+  src: "../fonts/feature-mono/FeatureMono-Bold.ttf";
+}
+@font-face {
+  font-family: "Feature Mono Light";
+  src: "../fonts/feature-mono/FeatureMono-Light.ttf";
+}
+@font-face {
+  font-family: "Feature Mono Medium";
+  src: "../fonts/feature-mono/FeatureMono-Medium.ttf";
+}
+
+:root {
+  --md-text-font: "Feature Mono Regular";
+  --md-code-font: "Feature Mono Medium";
+}
+
+._color {
+  width: 0.5rem;
+  height: 0.5rem;
+  padding: 0.5rem;
+  margin: 0;
+}
+
+b.ia,
+font.ia {
+  color: #DB7093;
+}
+
+b.rdu,
+font.rdu {
+  color: #1E90FF;
+}
+
+b.odu,
+font.odu {
+  color: #3CB371;
+}
+
+b.red,
+font.red {
+  color: #DC143C;
+}
